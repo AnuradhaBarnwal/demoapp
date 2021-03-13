@@ -1,0 +1,18 @@
+<div class="container">
+  <h2 class="py-4">News</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card mb-5" *ngFor="let i of news">
+        <div class="card-header">{{ i.title }}</div>
+        <div class="card-body">
+          <img src={{i.urlToImage}} class="card-img-top mb-3 rounded" alt="..." />
+          <h5 class="card-title">XYZ news</h5>
+          <p class="card-text">
+            {{ i.description }}
+          </p>
+          <a href="#" class="btn btn-primary">Read More...</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
