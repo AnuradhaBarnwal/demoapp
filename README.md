@@ -2,8 +2,8 @@
 ## To run electron app
    
 - First we have to build angular app using following command
-  -install npm package: `npm i  `
-  -build :`npm run build --base-href './'  `
+- install npm package: `npm i  `
+- build :`npm run build --base-href './'  `
 
 - Run the electron app using following command
     `npm run electron-start`
