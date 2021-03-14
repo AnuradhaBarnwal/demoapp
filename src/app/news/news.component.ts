@@ -17,8 +17,8 @@ export class NewsComponent implements OnInit {
 
   getLatestNews() {
     this.api.getNews().subscribe((data) => {
-      console.log('data', data.articles);
-      this.news = data.articles;
+      console.log('data', data.results);
+      this.news = data.results;
     });
   }
 }

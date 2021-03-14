@@ -1,3 +1,21 @@
+
+### To run electron app
+   
+- First we have to build angular app using following command
+  `   npm i  `
+  `   npm run build --base-href './'  `
+- Run the electron app using following command
+    `npm run electron-start`
+
+
+##### To build electron app
+
+- Windows: `npm run build-win`
+- Linux: `npm run build-linux`
+- Mac: `npm run build-mac`
+- Window and linux : `npm run build-winux`
+
+
 # Demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
@@ -26,6 +44,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
  
- ## Step to run the code
-
- go to dist folder --> go to electron-build --> demo-app-win32-ia32 --> click to open the app.
+ 

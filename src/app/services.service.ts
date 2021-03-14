@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ServicesService {
   url =
-    'https://newsapi.org/v2/everything?q=Apple&from=2021-03-10&sortBy=popularity&apiKey=5c1824358a744e86aa599e73bdc2ac5f';
+    'https://api.nytimes.com/svc/news/v3/content/nyt/business.json?api-key=nsc5BEJcLaDd0GpgAK4pJsOd7MOivcvL';
     url2= 'https://cricapi.com/api/cricket?apikey=PW77FKNtF1UwrIFVeZH1tV7MY603';
   constructor(private http: HttpClient) {}
 
