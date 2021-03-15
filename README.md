@@ -16,6 +16,13 @@
 - Mac: `npm run build-mac`
 - Window and linux : `npm run build-winux`
 
+## To open electron exe desktop app
+
+- Go to dist folder.
+- Open electron build folder.
+- Open for demo-app-win32-ia32.
+- Open demo app . 
+
 
 # Demo
 
